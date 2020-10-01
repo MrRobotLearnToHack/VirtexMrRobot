@@ -2,10 +2,10 @@
 import os,sys,time, requests
 
 #TANGGAL RILIS 2020/08/18 19:51
-#SENGAJA GAK DI ENSKRIPSI ^_^
-#RECODE AJA GAK PAPA KOK ^_^
+#SENGAJA GA DI ENKRIPSI ^_^
+#RECODE JUGA GAPAPA ^_^
 
-tabel="""╔═════════════════════════════════════╗\n║[•] Author : MR-X JUNIOR             ║\n║[•] GitHub : github.com/MR-X-Junior  ║\n║[•] WA.    : +6285754629509          ║\n║[•] UPDATE : 2020/08/18 19:51.       ║\n╚═════════════════════════════════════╝"""
+tabel="""╔═════════════════════════════════════╗\n║[•] Author : MrRobot Framework             ║\n║[•] GitHub : github.com/mrrobotframework  ║\n║[•] WA.    : +6285870635744          ║\n║[•] UPDATE : 2020/08/18 19:51.       ║\n╚═════════════════════════════════════╝"""
 menu2="""\033[1;94m[\033[1;91m1\033[1;94m] \033[1;92mLOGIN SCRIPTNYA\n\033[1;94m[\033[1;91m2\033[1;94m] \033[1;96mDOWNLOAD USERNAME DAN PASSWORD\n\033[1;94m[\033[1;91m3\033[1;94m] \033[1;93mLAPORKAN BUG\n\033[1;94m[\033[1;91m0\033[1;94m] \033[1;91mKELUAR"""
 nama2ku="""\033[1;91m                                 \n@@@@@@@@@@   @@@@@@@      @@@  @@@  \n@@@@@@@@@@@  @@@@@@@@     @@@  @@@  \n@@! @@! @@!  @@!  @@@     @@!  !@@  \n!@! !@! !@!  !@!  @!@     !@!  @!!  \n@!! !!@ @!@  @!@!!@!       !@@!@!   \n!@!   ! !@!  !!@!@!         @!!!    \n!!:     !!:  !!: :!!       !: :!!   \n:!:     :!:  :!:  !:!     :!:  !:!  \n:::     ::   ::   :::      ::  :::  \n:      :     :   : :      :   ::                                  """
 nama2="""\033[1;94m****     **** *******     **     **\n/**/**   **/**/**////**   //**   ** \n/**//** ** /**/**   /**    //** **  \n/** //***  /**/*******      //***   \n/**  //*   /**/**///**       **/**  \n/**   /    /**/**  //**     ** //** \n/**        /**/**   //**   **   //**\n//         // //     //   //     // """
@@ -15,7 +15,7 @@ def keluar():
 	os.system('clear')
 	jalan ("\033[1;93m[?] UDAHAN NIH ?")
 	time.sleep(3)
-	jalan ("\033[1;92m[✓] MAKASIH YA KAK UDAH PAKE SCRIPTNYA ^_^")
+	jalan ("\033[1;92m[✓] MAKASIH YA KAK UDAH PAKE SCRIPTNYA - SUBSCRIBE MrRobot Framework^_^")
 	time.sleep(1)
 	exit()
 
@@ -43,11 +43,11 @@ def bug2():
 		bug2()
 	elif mail=="1" or mail=="01":
 		os.system('clear')
-		jalan ("[✓] SILAHKAN HUBUNGI SAYA MELALUI EMAIL DI BAWAH INI!!")
+		jalan ("[✓] SILAHKAN HUBUNGI SAYA MELALUI CHANNEL DI BAWAH INI!!")
 		print ("====================================================")
-		print ("\033[1;92m1.hacked.by.mr.x232@gmail.com")
+		print ("\033[1;92m1.youtube.com/c/MrRobotFramework")
 		print ("\033[1;95m==================================")
-		print ("\033[1;93m2.anonymousindonesia232@gmail.com")
+		print ("\033[1;93m2.085870635744")
 		print ("\033[1;95m==================================")
 		jalan ("")
 		time.sleep(2)
@@ -56,19 +56,19 @@ def bug2():
 	elif mail=="2" or mail=="02":
 		os.system('clear')
 		time.sleep(2)
-		os.system(' xdg-open https://wa.me/6285754629509')
+		os.system(' xdg-open https://wa.me/6285870635744')
 		time.sleep(1)
 		bug2()
 	elif mail=="3" or mail=="03":
 		os.system('clear')
 		time.sleep(2)
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100053033144051')
+		os.system('xdg-open https://www.youtube.com/c/cMrRobotFramework')
 		time.sleep(2)
 		bug2()
 	elif mail=="0" or mail=="00":
 		menu()
 	else:
-		print ("\033[1;93m[!] ISI YANG BENAR SAYANG KU!..")
+		print ("\033[1;93m[!] ISI YANG BENAR ...")
 		time.sleep(4)
 		bug2()
 
@@ -81,13 +81,13 @@ def menu():
 	print (menu2)
 	nu=input("\033[1;93m>>>> \033[1;96m")
 	if nu=="":
-		jalan ("\033[1;91m[!] ISI YANG BENAR SAYANG KU!..")
+		jalan ("\033[1;91m[!] ISI YANG BENAR..")
 		time.sleep(4)
 		menu()
 	elif nu=="1" or nu=="01":
 		login()
 	elif nu=="2" or nu=="02":
-		os.system("xdg-open https://www.mediafire.com/file/0jwsk4m354ek8e3/file")
+		os.system("xdg-open http://www.mediafire.com/file/tbfw9cciye18jk3/FileLogin.txt/file")
 		time.sleep(1)
 		menu()
 	elif nu=="3" or nu=="03":
@@ -116,7 +116,7 @@ def login():
 		jalan ("\033[1;93m[!] GAK BOLEH KOSONG SAYANG!..")
 		time.sleep(4)
 		login()
-	if usr=="MR-X JUNIOR" and passw=="CIA SAYANG":
+	if usr=="MrRobotFramework" and passw=="nosystemissafe":
 		jalan ("\033[1;92m[✓] LOGIN BERHASIL! ^_^")
 		time.sleep(3)
 		virtex2()
